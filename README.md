@@ -2,7 +2,7 @@
 spring boot graphql application
 
 # build and execute
-[windows] -> mvnw.cmd springboot:run
+[windows] -> mvnw.cmd spring-boot:run
 
 # client (postman) 
 URL -> POST : http://localhost:5555/rest/book
