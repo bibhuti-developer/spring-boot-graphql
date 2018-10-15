@@ -69,7 +69,7 @@ public class GraphQLService {
 				.type("Query", typeWiring -> {
 					return typeWiring
 						.dataFetcher("allBooks", allBooksDataFetcher)
-						.dataFetcher("books", bookDataFetcher);
+						.dataFetcher("book", bookDataFetcher);
 						})
 				.build();
 	}

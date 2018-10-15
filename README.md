@@ -19,7 +19,7 @@ URL -> POST : http://localhost:5555/rest/book
 ```
 ```js
 {
-    book(id: "123") {
+    book(id: "A103") {
         isn
         title
     }
@@ -31,7 +31,7 @@ URL -> POST : http://localhost:5555/rest/book
         isn
         title
     }
-    book(id: "123") {
+    book(id: "A109") {
         isn
         title
         authors
